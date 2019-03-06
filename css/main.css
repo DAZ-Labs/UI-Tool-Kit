@@ -39,6 +39,7 @@ the content
 27-log-in page
 28- single-blog page
 29-blog-list
+30-welcome-404
 
 ******//////
 
@@ -2577,3 +2578,38 @@ p.p-big{
 .blog-list .page-numbers li span{
 	letter-spacing: 10px;
 }
+
+
+/*----------------------------------------------------
+					30-welcome-404
+----------------------------------------------------*/
+.welcome-404 {
+	min-height: 650px;
+}
+
+.welcome-404 input[type=text]{
+	border: 1px solid rgba(88, 130, 253, 0.6);
+}
+
+.welcome-404 input[type=submit]{
+	cursor: pointer;
+}
+
+.welcome-404 input[type=submit]:hover{
+	color: #5882fd;
+	background-color: transparent;
+}
+
+.welcome-404 .pattern{
+	left: 0;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+	background-image: url(../images/bb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom
+}
+/*----------------------------------------------------
+					End welcome-404
+----------------------------------------------------*/
