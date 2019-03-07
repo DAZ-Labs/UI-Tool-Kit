@@ -1,0 +1,60 @@
+.heading-para{
+	font-size: 1.15rem;
+	line-height: 30px;
+}
+
+.top-image{
+	animation-delay: 1s !important;
+}
+
+.modal-dialog{
+	top:25%;
+}
+
+.card{
+	transition: all .2s ease-in-out;
+
+}
+.card:hover{
+	 transform: scale(1.1);
+	 cursor: pointer;
+}
+
+.card:hover .card-text{
+	 display: block;
+
+	 
+}
+.card-text{
+	margin-top: 25px;
+	font-size: 1.2rem;
+	display: none;
+}
+.modal-header{
+	border-bottom: 0px !important;
+}
+.modal-dialog{
+	max-width: 50% !important;
+}
+
+.popup-p{
+	padding-left: 3rem;
+	padding-top: 1rem;
+	font-size: 18px;
+	text-align: left;
+	line-height: 25px;
+}
+
+.popup-h{
+	text-align: left;
+	padding-left: 3rem;
+	color: #af5244;
+}
+
+.card-text{
+	color: #af5244;
+}
+
+.modal-header{
+	padding: 0px !important;
+}
