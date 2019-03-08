@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/et-line-icons.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/iconmonstr-iconic-font.min.css"/>
     <link rel="stylesheet" href="css/lity.min.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
@@ -18,6 +19,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> 
   </head>
   <body>
 	  <!-- ==================================================
@@ -153,26 +157,23 @@
 	  <!-- ==================================================
 							welcome-slider
       ================================================== -->
-	  <section class="welcome-slider sec-padding p-relative o-hidden bg-gray">   
+      <section class="welcome-area sec-padding p-relative o-hidden" data-scroll-index="1">
 		  <div class="container">
-			  <div class="owl-carousel owl-theme">
-				  <div class="item">
-					  <div class="row sec-padding flex-center">
-						  <div class="col-md-6 mb-50px z-index-1">
-							  <h1 class="mb-20px">Inspire&nbsp;Innovate&nbsp;Develop</h1>
-							  <p class="heading-para">We turn your ideas into reality. Our solutions are perfectly tailored to your diverse business needs.</p>
-							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
-							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
-						  </div>
-						  <div class="col-md-6 text-center animated fadeIn top-image">
-							  <img alt="img" src="https://via.placeholder.com/1450x1100">
-						  </div>
-					  </div>
+			  <div class="row welcome-text sec-padding flex-center">
+				  <div class="col-md-6 mb-50px z-index-1">
+					  <h1 class="mb-20px top-heading">Inspire|Innovate|Develop</h1>
+					  <p class="para-all">We turn your ideas into reality. Our solutions are perfectly tailored to your diverse business needs.</p>
+					  <a class="main-btn btn-3 mt-40px mr-10px" href="#">Get Started</a>
 				  </div>
-			  </div>   
+				  <div class="col-md-6 text-center">
+					  <img alt="img" src="https://via.placeholder.com/700x678">
+				  </div>
+			  </div>
 		  </div>
-		  
-      </section> 
+		  <div class="shape-1 bg-orange-lh p-absolute">
+		  </div>
+	  </section>
+	  
 	  <!-- ==================================================
 							End welcome-slider
       ================================================== -->
@@ -257,8 +258,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		  </div>
+		   
 	  </section>
 	  <!-- ==================================================
 							End features-area
@@ -267,60 +268,51 @@
 	  <!-- ==================================================
 							about-area
       ================================================== -->
-	  <section class="about-area sec-padding" data-scroll-index="3">
-		  <div class="container">
-			  <div class="row mb-25px"> 
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInLeft" data-wow-delay="0.45s">
-						  <img src="https://via.placeholder.com/700x638" alt="img">
+	  <section class="features-area sec-padding text-center bg-orange-lh triangle-top triangle-bottom" data-scroll-index="3">
+		  	<div class="container">
+			  	<h1 class="title-h">What do our customers get?</h1>
+			  	<div class="row">
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.3s">
+						  	<i class="im im-pointer fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Deep Tech Expertise</h4>
+    					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  <div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.5s">
+						  <i class="im im-diamond-o fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  <h4>Commitment</h4>
 					  </div>
-				  </div>
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInRight" data-wow-delay="0.7s">
-						  <i class="im im-power fs-25 color-orange bg-orange-lh mb-20px text-center radius-50"></i>
-						  <h3 class="mb-15px">Get Started with our software</h3>
-						  <p class="mb-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-						  <p class="mb-10px"><i class="fa fa-check color-blue mr-5px"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-						  <p class="mb-10px"><i class="fa fa-check color-blue mr-5px"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-						  <p class="mb-10px"><i class="fa fa-check color-blue mr-5px"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-						  <p><i class="fa fa-check color-blue mr-5px"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-						  <a class="main-btn btn-3 mt-25px" href="#0">Read More</a>
-					  </div>
-				  </div>    
-			  </div>
-			  <div class="row mb-25px"> 
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInLeft" data-wow-delay="0.7s">
-						  <i class="im im-tools fs-25 color-orange bg-orange-lh mb-20px text-center radius-50"></i>
-						  <h3 class="mb-15px">Solve your problem faster</h3>
-						  <p class="mb-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-						  <p class="bg-green-lh p-15px mb-10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-						  <a class="main-btn btn-3 mt-30px" href="#0">Read More</a>
-					  </div>
-				  </div> 
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInRight" data-wow-delay="0.45s">
-						  <img src="https://via.placeholder.com/646x600" alt="img">
-					  </div>
-				  </div>
-			  </div>
-			  <div class="row mb-25px"> 
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInLeft" data-wow-delay="0.45s">
-						  <img src="https://via.placeholder.com/700x610" alt="img">
-					  </div>
-				  </div>
-				  <div class="col-md-6">
-					  <div class="mt-25px mb-25px wow fadeInRight" data-wow-delay="0.7s">
-						  <i class="im im-users fs-25 color-orange bg-orange-lh mb-20px text-center radius-50"></i>
-						  <h3 class="mb-15px">We provide proffesional staff</h3>
-						  <p class="mb-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </p>
-						  <a class="main-btn btn-3 mt-25px" href="#0">Read More</a>
-					  </div>
-				  </div>    
-			  </div>
-		  </div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.7s">
+						  	<i class="im im-rocket fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Time track</h4>
+     					</div>
+				  	</div>
+			  	</div>
+			  	<div class="row">
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.3s">
+						  	<i class="im im-pointer fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Agile Approach</h4>
+       					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.5s">
+						  	<i class="im im-diamond-o fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Best Results</h4>
+    					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.7s">
+						  	<i class="im im-rocket fs-35 color-blue bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Scalability</h4>
+ 						</div>
+				  	</div>
+			  	</div>
+		  	</div>
+		  
 	  </section>
 	  <!-- ==================================================
 							End about-area
@@ -329,224 +321,117 @@
 	  <!-- ==================================================
 							services-area
       ================================================== -->
-	  <section class="services-area sec-padding bg-gray text-center" data-scroll-index="4">
-		  <div class="container">
-			  <h1 class="title-h">Our Services</h1>
-			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <section class="how-work-3 sec-padding text-center" data-scroll-index="4">
+		  <div class="approach-container">
+			  <h1 class="title-h" style="margin-right: 16vw;">Our approach to your problems</h1>
+			  
 			  <div class="row">
-				  <div class="col-md-4">
-					  <div class="services-text mt-25px mb-25px bg-fff bg-blue-hvr transition-3 radius-10px wow fadeInUp" data-wow-delay="0.3s">
-						  <i class="im im-umbrella color-blue fs-50 mb-25px"></i>
-						  <h4 class="mb-10px">Marketing</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
-					  </div>
+				  <div class="col-md-2 how-box p-relative first">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">01</span>
+						  <h4 class="mb-10px">Analysis</h4>
+						  <p>We analyze, document and validate software requirements needed for your project.</p>
+					   </div>
 				  </div>
-				  <div class="col-md-4">
-					  <div class="services-text mt-25px mb-25px bg-fff bg-blue-hvr transition-3 radius-10px wow fadeInUp" data-wow-delay="0.5s">
-						  <i class="im im-sun color-blue fs-50 mb-25px"></i>
-						  <h4 class="mb-10px">Design</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
-					  </div>
+				  <div class="col-md-2 how-box p-relative">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">02</span>
+						  <h4 class="mb-10px">Visual Design</h4>
+						  <p>We draw the structure and break the problem into the required software components</p>
+					   </div>
 				  </div>
-				  <div class="col-md-4">
-					  <div class="services-text mt-25px mb-25px bg-fff bg-blue-hvr transition-3 radius-10px wow fadeInUp" data-wow-delay="0.7s">
-						  <i class="im im-wrench color-blue fs-50 mb-25px"></i>
-						  <h4 class="mb-10px">Helping Support</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
-					  </div>
+				  <div class="col-md-2 how-box p-relative">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">03</span>
+						  <h4 class="mb-10px">Develop</h4>
+						  <p>Our knowledge of currently available technology allows us to write you the best solution.</p>
+					   </div>
 				  </div>
-			  </div>
-		  </div>
-	  </section>
-	  <!-- ==================================================
-							End services-area
-      ================================================== -->
-	  
-	  <!-- ==================================================
-							vision-area
-      ================================================== -->
-	  <section class="vision-area sec-padding">
-		  <div class="container">
-			  <div class="row">
-				  <div class="col-md-4 mt-25px mb-25px">
-					  <div class="vision-dots">
-						  <div class="dot mb-40px">
-							  <i class="im im-color-fan fs-20 bg-gray radius-50 text-center mb-10px mr-5px"></i> 
-							  <h4 class="mb-5px">Marketing</h4>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  eiusmod tempor .</p>
-						  </div>
-						  <div class="dot mb-40px">
-							  <i class="im im-idea fs-20 bg-gray radius-50 text-center mb-10px mr-5px"></i> 
-							  <h4 class="mb-5px">Branding</h4>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  eiusmod tempor .</p>
-						  </div>
-						  <div class="dot">
-							  <i class="im im-laptop-o fs-20 bg-gray radius-50 text-center mb-10px mr-5px"></i> 
-							  <h4 class="mb-5px">Development</h4>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  eiusmod tempor .</p>
-						  </div>
-					  </div>
+				  <div class="col-md-2 how-box p-relative">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">04</span>
+						  <h4 class="mb-10px">Deploy</h4>
+						  <p>We take care of deployment while providing secure and reliable integrations.</p>
+					   </div>
 				  </div>
-				  <div class="col-md-7 offset-md-1 mt-25px">
-					  <div class="owl-carousel">
-						  <div>
-							  <img alt="img" src="https://via.placeholder.com/750x639">
-						  </div>
-						  <div>
-							  <img alt="img" src="https://via.placeholder.com/700x638">
-						  </div>
-						  <div>
-							  <img alt="img" src="https://via.placeholder.com/550x427">
-						  </div>
-					  </div>
+				  <div class="col-md-2 how-box p-relative last">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">05</span>
+						  <h4 class="mb-10px">Support</h4>
+						  <p>We provide technical support required to keep your software environment running efficiently.</p>
+					   </div>
 				  </div>
+				  <div class="col-md-2"></div>
 			  </div>  
 		  </div>
 	  </section>
-	  <!-- ==================================================
-							End vision-area
-      ================================================== -->
 	  
-	  <!-- ==================================================
-							team-area
-      ================================================== -->
-	  <section class="team-area sec-padding bg-gray text-center">
+	  <section class="price-area-2 p-relative big-padding text-center" data-scroll-index="5">
 		  <div class="container">
-			  <h1 class="title-h">Our Team Members</h1>
-			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		  	<h1 class="title-h">Our Values</h1>
 			  <div class="row">
-				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-					  <div class="mt-25px mb-25px">
-						  <div class="o-hidden radius-50 mb-20px ml-auto mr-auto">
-						  	  <img src="https://via.placeholder.com/150x150" alt="img" class="radius-50 transition-3">
-						  </div>
-						  <h5 class="mb-0px">Daniel Edward</h5>
-						  <span class="color-orange fs-15 d-block mb-15px">Web Designer</span>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-facebook"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-behance"></i></a>
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.35s">
+						  <i class="fa fa-check fs-25 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px values-heading">Work Excellence</h4>
+						  <hr>
+						  <p>Our employees impact lives every day by exceeding expectations and creating WOW moments while at work.</p>
 					  </div>
 				  </div>
-				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-					  <div class="mt-25px mb-25px">
-						  <div class="o-hidden radius-50 mb-20px ml-auto mr-auto">
-						  	  <img src="https://via.placeholder.com/150x150" alt="img" class="radius-50 transition-3">
-						  </div>
-						  <h5 class="mb-0px">Robert Richard</h5>
-						  <span class="color-orange fs-15 d-block mb-15px">App Developer</span>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-facebook"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-behance"></i></a>
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.55s">
+						  <i class="im fa fa-check 2s-35 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px values-heading">Brainstorm</h4>
+						  <hr>
+						  <p>Our team brainstorms on our customer’s problem and each idea of an individual eventually adds to up to be our customer’s final product</p>
 					  </div>
 				  </div>
-				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-					  <div class="mt-25px mb-25px">
-						  <div class="o-hidden radius-50 mb-20px ml-auto mr-auto">
-						  	  <img src="https://via.placeholder.com/150x150" alt="img" class="radius-50 transition-3">
-						  </div>
-						  <h5 class="mb-0px">James Charles</h5>
-						  <span class="color-orange fs-15 d-block mb-15px">Sales Designer</span>
-						  <a href="#0" class="color-blue d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-facebook"></i></a>
-						  <a href="#0" class="color-blue d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
-						  <a href="#0" class="color-blue d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-behance"></i></a>
-					  </div>
-				  </div>
-				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					  <div class="mt-25px mb-25px">
-						  <div class="o-hidden radius-50 mb-20px ml-auto mr-auto">
-						  	  <img src="https://via.placeholder.com/150x150" alt="img" class="radius-50 transition-3">
-						  </div>
-						  <h5 class="mb-0px">Robert Richard</h5>
-						  <span class="color-orange fs-15 d-block mb-15px">App Developer</span>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-facebook"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
-						  <a href="#0" class="color-blue fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-behance"></i></a>
-					  </div>
-				  </div>
+				  
 			  </div>
-		  </div>
-	  </section>
-	  <!-- ==================================================
-							End team-area
-      ================================================== -->
-	  
-	  <!-- ==================================================
-							how-work
-      ================================================== -->
-	  <section class="how-work text-center sec-padding">
-		  <div class="container">
-			  <h1 class="title-h">How It Works</h1>
-			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			  <div class="row">
-				  <div class="col-md-4 p-relative">
-					  <div class="mt-25px mb-25px pr-30px pl-30px">
-						  <span class="p-relative d-inline-block bg-gray color-blue radius-50 text-center fs-30 fw-600 mb-15px transition-3">
-							  01
-						  </span>
-						  <h4>Design</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.35s">
+						  <i class="fa fa-check fs-25 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px values-heading">Knowledge Sharing</h4>
+						  <hr>
+						  <p>By teaching others, we teach ourselves. Spreading knowledge within the organization and to the world at large is an intelligent way of doing business.</p>
 					  </div>
 				  </div>
-				  <div class="col-md-4 p-relative">
-					  <div class="mt-25px mb-25px pr-30px pl-30px">
-						  <span class="p-relative d-inline-block bg-gray color-blue radius-50 text-center fs-30 fw-600 mb-15px transition-3">
-							  02
-						  </span>
-						  <h4>Develop</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.55s">
+						  <i class="im fa fa-check 2s-35 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px values-heading">Team spirit</h4>
+						  <hr>
+						  <p>Everything eventually boils down to team spirit, as great feats are accomplished in teams, not by individuals. We are team players and always on the outlook for similar individuals. Because the success of our team is integral to our success.</p>
 					  </div>
 				  </div>
-				  <div class="col-md-4 p-relative last-one">
-					  <div class="mt-25px mb-25px pr-30px pl-30px">
-						  <span class="p-relative d-inline-block bg-gray color-blue radius-50 text-center fs-30 fw-600 mb-15px transition-3">
-							  03
-						  </span>
-						  <h4>Product</h4>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+				  
+			  </div>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.35s">
+						  <i class="fa fa-check fs-25 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px">Honest relationship</h4>
+						  <hr>
+						  <p>One of our key aspects in our relationship with our client is the building trust and the ability to be trusted. Trust is built by being honest, working consistently and delivering great results.</p>
 					  </div>
 				  </div>
+				  <div class="col-md-6">
+					  <div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.55s">
+						  <i class="im fa fa-check 2s-35 color-orange bg-gray p-15px radius-50 mb-20px transition-3"></i>  
+						  <h4 class="color-orange mb-15px">Adaptability</h4>
+						  <hr>
+						  <p>To adapt is to be the right “thing” at the right time.Adapting to change is what keeps us relevant, valuable and at the forefront of the competitive edge.</p>
+					  </div>
+				  </div>
+				  
 			  </div>
 		  </div>
+		  <div class="pattern-top p-absolute bg-orange-lh "></div>
+		  <div class="pattern-bottom p-absolute bg-orange-lh "></div>
 	  </section>
-	  <!-- ==================================================
-							End how-work
-      ================================================== -->
-	  
-	  <!-- ==================================================
-							testimonials
-      ================================================== -->
-	  <section class="testimonials sec-padding bg-gray text-center">
-		  <div class="container">
-			  <div class="owl-carousel owl-theme">
-				  <div class="single-review">
-					  <img alt="img" src="https://via.placeholder.com/150x150" class="radius-50 ml-auto mr-auto mb-20px">
-					  <p class="fs-16 fw-300 color-555">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-					  <h5 class="mt-20px mb-0px">Daniel Robert </h5>
-					  <span class="color-orange fw-400 fs-15 d-block mb-10px">Web Designer</span>
-				  </div>
-				  <div class="single-review">
-					  <img alt="img" src="https://via.placeholder.com/150x150" class="radius-50 ml-auto mr-auto mb-20px">
-					  <p class="fs-16 fw-300 color-555">LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-					  <h5 class="mt-20px mb-0px">Daniel Robert </h5>
-					  <span class="color-orange fw-400 fs-15 d-block mb-10px">Web Designer</span>
-				  </div>
-				  <div class="single-review">
-					  <img alt="img" src="https://via.placeholder.com/150x150" class="radius-50 ml-auto mr-auto mb-20px">
-					  <p class="fs-16 fw-300 color-555">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-					  <h5 class="mt-20px mb-0px">Daniel Robert </h5>
-					  <span class="color-orange fw-400 fs-15 d-block mb-10px">Web Designer</span>
-				  </div>
-			  </div>
-		  </div>
-	  </section>
-	  <!-- ==================================================
-							End testimonials
-      ================================================== -->
-	  
-	  <!-- ==================================================
-							faqs
-      ================================================== -->
-	  <section class="sec-padding faqs" data-scroll-index="5">
+	  <!--<section class="sec-padding faqs" data-scroll-index="5">
 		  <div class="container">
 			  <h1 class="title-h">Frequently Asked Question</h1>
 			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -570,7 +455,7 @@
 				  </div>
 			  </div>
 		  </div>
-	  </section>
+	  </section>-->
 	  <!-- ==================================================
 							End faqs
       ================================================== -->
@@ -578,110 +463,7 @@
 	  <!-- ==================================================
 							price-area
       ================================================== -->
-	  <section class="price-area sec-padding bg-gray text-center" data-scroll-index="6">
-		  <div class="container">
-			  <h1 class="title-h">Our Packages</h1>
-			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			  <ul class="tabs list-unstyled  text-center">
-				  <li id="tab1" class="active pl-25px pr-25px pt-10px pb-10px bg-fff color-blue mb-10px d-inline-block">Monthly</li>
-				  <li id="tab2" class="pl-25px pr-25px pt-10px pb-10px bg-fff color-blue mb-10px d-inline-block">Yearly </li>
-			  </ul>
-			  <div class="tabs-content">
-				  <div id="tab1-content">
-					  <div class="row">
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Basic</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">29 <span class="fs-25">$</span> </span>  <span class="fs-20"> / mo</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Download</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Premium</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">39 <span class="fs-25">$</span> </span>  <span class="fs-20"> / mo</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Download</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Business</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">59 <span class="fs-25">$</span> </span>  <span class="fs-20"> / mo</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Download</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-					  </div>
-				  </div>
-				  <div id="tab2-content">
-					  <div class="row">
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Basic</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">59 <span class="fs-25">$</span> </span>  <span class="fs-20"> / year</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Download</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Premium</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">79 <span class="fs-25">$</span> </span>  <span class="fs-20"> / year</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Download</p>
-								  <p><i class="fa fa-close color-orange"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-						  <div class="col-md-4">
-							  <div class="price-table bg-fff mt-25px mb-25px">
-								  <h3 class="fw-500">Business</h3>
-								  <h1 class="fw-500 mt-20px mb-20px"><span class="fw-200 bg-gray radius-50px pl-15px pr-15px">99 <span class="fs-25">$</span> </span>  <span class="fs-20"> / year</span></h1>
-								  <p class="ml-10px mr-10x mb-20px">when an unknown printer took a galley of type and scrambled it</p>
-								  <p><i class="fa fa-check color-blue"></i> 3 Users</p>
-								  <p><i class="fa fa-check color-blue"></i>  2GB Space</p>
-								  <p><i class="fa fa-check color-blue"></i>  3 Account</p>
-								  <p><i class="fa fa-check color-blue"></i>  Supporting</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Download</p>
-								  <p><i class="fa fa-check color-blue"></i> Unlimated Updates</p>
-								  <a class="main-btn btn-3 mt-20px" href="#0">Order Now</a>
-							  </div>
-						  </div>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-	  </section>
+	  
 	  <!-- ==================================================
 							End price-area
       ================================================== -->
@@ -690,7 +472,7 @@
 	  <!-- ==================================================
 							brands-area
       ================================================== -->
-	  <section class="brands-area sec-padding text-center">
+	  <section class="brands-area sec-padding text-center" data-scroll-index="6">
 		  <div class="container">
 			  <h1 class="title-h">Trusted By many companies</h1>
 			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -735,16 +517,16 @@
 	  <!-- ==================================================
 							get-started
       ================================================== -->
-	  <section class="get-started bg-blue sec-padding text-center p-relative">
+	  <section class="get-started bg-orange sec-padding text-center p-relative" data-scroll-index="7">
 		  <div class="container">
 			  <div class="row mb-50px">
 				  <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 z-index-2">
-					  <h3 class="color-fff mb-10px">Work with PXsaas</h3>
-					  <p class="color-eee mb-30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					  <form class="p-relative">
-						  <input type="email" required class="radius-50px mb-10px pl-15px pt-7px pb-7px no-border w-100" placeholder="Enter your email">
-					  	  <button class="bg-orange color-fff radius-50px pr-15px pl-15px pt-7px pb-7px no-border p-absolute">Get Started</button>
-					  </form>
+					  <h3 class="color-fff mb-10px">Thanks for visiting us</h3>
+					  <p class="color-eee mb-30px">It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.</p>
+					  
+						  
+					  	  <button class="bg-blue color-fff radius-50px pr-15px pl-15px pt-7px pb-7px no-border">Drop us a message</button>
+					  
 				  </div>
 			  </div>
 			  <div class="patt p-absolute left-0"></div>
@@ -758,7 +540,7 @@
 	  <!-- ==================================================
 							footer-area
       ================================================== -->
-	  <section class="footer-area sec-padding">
+	  <section class="footer-area sec-padding" data-scroll-index="8">
 		  <div class="container">
 			  <div class="row">
 				  <div class="col-lg-3 col-sm-6">
@@ -831,7 +613,7 @@
 	  <!-- ==================================================
 							copyright-area
       ================================================== -->
-	  <section class="bg-gray sm-padding text-center">
+	  <section class="bg-gray sm-padding text-center" data-scroll-index="9">
 		  <div class="container">
 			  <h6 class="mb-0px">© 2018 Designed by Dragon-themes</h6>
 		  </div>

@@ -58,3 +58,41 @@
 .modal-header{
 	padding: 0px !important;
 }
+
+.approach-container{
+	margin-left: 17vw;
+	
+}
+
+.values-h{
+	margin-bottom:6% !important;
+}
+
+.drop-button{
+	text-align: center;
+}
+
+hr{
+	width: 48%;
+	border-color: rgba(249, 120, 0,0.3);
+	background-color: rgba(249, 120, 0,0.3);
+}
+
+.values-pattern{
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	z-index: 0;
+	background-image: url(../images/Pattern-4.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.top-heading{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-weight: 600;
+}
+
+.para-all{
+	font-family: 'Montserrat', sans-serif;
+}

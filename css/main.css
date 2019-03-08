@@ -55,7 +55,7 @@ the content
 }
 
 body{
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .fa {
@@ -101,7 +101,7 @@ p.p-big{
 	text-align: center;
 	font-size: 30px;
 	line-height: 40px;
-	margin-bottom: 5px;
+	margin-bottom: 35px;
 }
 
 .title-p{
@@ -522,7 +522,7 @@ p.p-big{
 	width: 0px;
 	background-color: #fff;
 	border-left: 100vw solid transparent;
-	border-bottom: 50px solid #edf5ff;
+	border-bottom: 50px solid #ffe9da;
 }
 
 .triangle-bottom{
@@ -538,7 +538,7 @@ p.p-big{
 	height: 0px;
 	width: 0px;
 	background-color: #fff;
-	border-left: 100vw solid #edf5ff;
+	border-left: 100vw solid #ffe9da;
 	border-bottom: 50px solid transparent;
 }
  
@@ -1086,7 +1086,7 @@ p.p-big{
 /***** features-area-2 for demo-3*****/
 .features-area-2 .p-30px{
 	padding: 60px 30px;
-	box-shadow: 0 2px 35px -1px #5882fd3b;
+	/*box-shadow: 0 2px 15px -1px rgba(255, 198, 145,1);*/
 }
 
 .features-area-2 .p-30px .fa-check{
@@ -1097,7 +1097,7 @@ p.p-big{
 }
 
 .features-area-2 .p-30px:hover .fa-check{
-	background-color: #5882fd;
+	background-color: #ff7762;;
 	color: #fff;
 }
 /*----------------------------------------------------
