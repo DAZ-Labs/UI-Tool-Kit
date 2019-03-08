@@ -102,6 +102,7 @@ p.p-big{
 	font-size: 30px;
 	line-height: 40px;
 	margin-bottom: 35px;
+
 }
 
 .title-p{
@@ -1685,7 +1686,7 @@ p.p-big{
 	height: 100%;
 	width: 100%;
 	-webkit-background:linear-gradient(45deg, rgba(42, 169, 206, 0.6) 0%, rgba(88, 130, 253, 0.9) 100%);
-	background:linear-gradient(45deg, rgba(42, 169, 206, 0.6) 0%, rgba(88, 130, 253, 0.9) 100%);
+	background:linear-gradient(45deg, rgba(201, 114, 64,0.6) 0%, rgba(211, 102, 40, 0.9) 100%);
 	opacity: 0;
 }
 
