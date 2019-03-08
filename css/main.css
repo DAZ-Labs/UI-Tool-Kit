@@ -892,6 +892,7 @@ p.p-big{
 ----------------------------------------------------*/
 .welcome-area {
 	min-height: 650px;
+	margin-top: 0%;
 }
 
 .welcome-area .welcome-text p{
