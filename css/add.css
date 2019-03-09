@@ -26,7 +26,7 @@
 	 
 }
 .card-text{
-	margin-top: 25px;
+	margin-top: 10px;
 	font-size: 1.2rem;
 	display: none;
 }
@@ -102,5 +102,27 @@ hr{
 }
 
 .landing-container{
-	margin-top:4%;
+	margin-top:6%;
+}
+
+.card{
+	border:0px !important;
+}
+
+.pop-image{
+	height: 80%;
+	width: 60%;
+}
+
+.card-head{
+	padding-top:13%;
+	font-weight: 600;
+	font-size: 25px;
+}
+.value-row1{
+	padding-left: 8%;
+}
+
+.value-row2{
+	padding-left: 8%;
 }
