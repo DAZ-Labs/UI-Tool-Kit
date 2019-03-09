@@ -149,12 +149,22 @@ hr{
   .approach-heading{
   	margin-right: 1% !important;
   }
+  
+  .value-row1, .value-row2{
+  	padding-left: 0 !important;
+  }
+  .team-container{
+  	padding-left: 22% !important;
+  }
 }
 
 @media only screen and (max-width: 380px) {
   
   .card{
   	margin-left: 6%;
+  }
+  .team-container{
+  	padding-left: 10% !important;
   }
  
 }
