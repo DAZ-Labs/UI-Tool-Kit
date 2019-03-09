@@ -17,7 +17,7 @@
 }
 .card:hover{
 	 transform: scale(1.1);
-	 cursor: pointer;
+	 
 }
 
 .card:hover .card-text{
@@ -125,4 +125,36 @@ hr{
 
 .value-row2{
 	padding-left: 8%;
+}
+
+
+/* media query */
+
+.navbar-toggler{
+	margin-right: 9%;
+}
+@media only screen and (max-width: 768px) {
+  .logo{
+  	margin-left: 25%;
+  }
+  .card{
+  	margin-left: 21%;
+  }
+  .card:hover{
+  	transform: scale(1);
+  }
+  .approach-container{
+  	margin-left: 3%;
+  }
+  .approach-heading{
+  	margin-right: 1% !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  
+  .card{
+  	margin-left: 6%;
+  }
+ 
 }
