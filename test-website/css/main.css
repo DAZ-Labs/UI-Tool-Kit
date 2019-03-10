@@ -2028,12 +2028,8 @@ p.p-big{
 					16-brands-area
 ----------------------------------------------------*/ 
 .brands-area img{
-	opacity: 0.5;
-	
-}
-
-.brands-area img:hover{
-	opacity: 1;
+  padding: 10%;
+  margin-left: 50px;
 }
 /*----------------------------------------------------
 					End brands-area
