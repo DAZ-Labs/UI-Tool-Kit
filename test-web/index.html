@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>DAZ Labs | Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/et-line-icons.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/iconmonstr-iconic-font.min.css"/>
+    <link rel="stylesheet" href="css/lity.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
+	<style>
+		.navbar {
+			padding-bottom: 25px;
+			padding-top: 25px;
+		}
+        #countdown{
+			/* margin-top: -100px; */
+            width: 465px;
+            height: 112px;
+            text-align: center;
+            background-color: transparent;
+            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
+            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
+            margin: auto;
+            padding: 24px 0;
+            /* position: absolute; */
+        top: 0; bottom: 0; left: 0; right: 0;
+        }
+
+        #countdown:before{
+            content:"";
+            width: 8px;
+            height: 65px;
+            background-color: transparent;
+            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
+            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
+            display: block;
+            position: absolute;
+            top: 48px; left: -10px;
+        }
+
+        #countdown:after{
+            content:"";
+            width: 8px;
+            height: 65px;
+            background-color: transparent;
+            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
+            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
+            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
+            display: block;
+            position: absolute;
+            top: 48px; right: -10px;
+        }
+
+        #countdown #tiles{
+            position: relative;
+            z-index: 1;
+        }
+
+        #countdown #tiles > span{
+            width: 92px;
+            max-width: 92px;
+            font: bold 48px 'Droid Sans', Arial, sans-serif;
+            text-align: center;
+            color: #111;
+            background-color: transparent;
+            background-image: -webkit-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514)); 
+            background-image:    -moz-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
+            background-image:     -ms-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
+            background-image:      -o-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
+            /* border-top: 1px solid #fff; */
+            border-radius: 3px;
+            /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7); */
+            margin: 0 7px;
+            padding: 18px 0;
+            display: inline-block;
+            position: relative;
+        }
+
+        #countdown #tiles > span:before{
+            content:"";
+            width: 100%;
+            height: 13px;
+            /* background: #111; */
+            display: block;
+            padding: 0 3px;
+            position: absolute;
+            top: 41%; left: -3px;
+            z-index: -1;
+        }
+
+        #countdown #tiles > span:after{
+            content:"";
+            width: 100%;
+            height: 1px;
+            /* background: #eee; */
+            /* border-top: 1px solid rgba(255, 2, 2, 0.3); */
+            display: block;
+            position: absolute;
+            top: 48%; left: 0;
+        }
+
+        #countdown .labels{
+            width: 100%;
+            height: 25px;
+            text-align: center;
+            /* position: absolute; */
+            bottom: 8px;
+        }
+
+        #countdown .labels li{
+            width: 102px;
+            font:  15px 'Droid Sans', Arial, sans-serif;
+            color: #000;
+            text-align: center;
+            text-transform: uppercase;
+            display: inline-block;
+			
+        }
+		.welcome-page {
+			padding-top: 100px !important;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			#countdown{ 
+				display: none;
+			}
+
+			.welcome-page {
+				padding-top: 100px !important;
+			}
+
+			.navbar {
+				padding-bottom: 0px;
+				padding-top: 0px;
+			}
+		}
+	</style>
+	</head>
+  <body style="background-color: #edf5ff;">
+	  <!-- ==================================================
+							load-wrapp
+      ================================================== -->
+	  <div class="load-wrapp">
+		  <div class="wrap">
+			  <ul class="dots-box">
+			    <li class="dot"><span></span></li>
+			    <li class="dot"><span></span></li>
+			    <li class="dot"><span></span></li>
+			    <li class="dot"><span></span></li>
+			    <li class="dot"><span></span></li>
+			  </ul>
+		  </div>
+      </div> 
+	  <!-- ==================================================
+							End load-wrapp
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							navbar
+      ================================================== -->
+	  <nav class="navbar navbar-expand-lg">
+		  <div class="container">
+			  <a class="navbar-brand" href="#"> 
+				  <img src="images/logo.png" alt="logo">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="fa fa-bars"></span>
+			  </button>
+		<!--	  <div class="collapse navbar-collapse" id="main-navbar">
+				  <ul class="navbar-nav ml-auto">  
+				      <li class="nav-item">
+					  	<a class="nav-link" href="" data-scroll-nav="1">Home</a>
+				  	  </li>
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#" data-scroll-nav="2">Features</a>
+					  </li>
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#" data-scroll-nav="3">About</a>
+					  </li>
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#" data-scroll-nav="4">Services</a>
+					  </li>
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#" data-scroll-nav="5">Faqs</a>
+					  </li>
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#" data-scroll-nav="6">Pricing</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Blog
+						  </a>
+						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						      <a class="dropdown-item fs-14" href="blog-list.html"><span class="color-blue">-</span> Blog List</a>
+						      <a class="dropdown-item fs-14" href="blog-grid.html"><span class="color-blue">-</span> Blog Grid</a>
+							  <a class="dropdown-item fs-14" href="single-blog-page.html"><span class="color-blue">-</span> Single Blog </a>
+						  </div>
+					  </li>
+					  <li class="nav-item dropdown mega-item">
+						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Portfolio
+						  </a>
+						  <div class="dropdown-menu mega-menu pb-20px" aria-labelledby="navbarDropdown">
+						       <div class="row">
+								   <div class="col-lg-3">
+									   <ul class="pl-15px mt-25px list-unstyled">
+										   <li><h5 class="fw-600">Portfolio 1</h5></li>
+										   <li><a class="dropdown-item fs-14" href="port1-grid-2col.html"><span class="color-blue">-</span> Grid 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port1-grid-3col.html"><span class="color-blue">-</span> Grid 3 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port1-mas-2col.html"><span class="color-blue">-</span> Masonry 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port1-mas-3col.html"><span class="color-blue">-</span> Masonry 3 col</a></li>
+							  			</ul>
+								   </div>
+								   <div class="col-lg-3">
+									   <ul class="pl-15px mt-25px list-unstyled">
+										   <li><h5 class="fw-600">Portfolio 2</h5></li>
+										   <li><a class="dropdown-item fs-14" href="port2-grid-2col.html"><span class="color-blue">-</span>Grid 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port2-grid-3col.html"><span class="color-blue">-</span>Grid 3 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port2-mas-2col.html"><span class="color-blue">-</span>Masonry 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port2-mas-3col.html"><span class="color-blue">-</span>Masonry 3 col</a></li>
+							  			</ul>
+								   </div>
+								   <div class="col-lg-3">
+									   <ul class="pl-15px mt-25px list-unstyled">
+										   <li><h5 class="fw-600">Portfolio 3</h5></li>
+										   <li><a class="dropdown-item fs-14" href="port3-grid-2col.html"><span class="color-blue">-</span> Grid 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port3-grid-3col.html"><span class="color-blue">-</span> Grid 3 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port3-mas-2col.html"><span class="color-blue">-</span> Masonry 2 col</a></li>
+										   <li><a class="dropdown-item fs-14" href="port3-mas-3col.html"><span class="color-blue">-</span> Masonry 3 col</a></li>
+							  			</ul>
+								   </div>
+								   <div class="col-lg-3">
+									   <ul class="pl-15px mt-25px list-unstyled">
+										   <li><h5 class="fw-600">Single Portfolio</h5></li>
+										   <li><a class="dropdown-item fs-14" href="single-port-1.html"><span class="color-blue">-</span> Single Portfolio 1</a></li>
+										   <li><a class="dropdown-item fs-14" href="single-port-2.html"><span class="color-blue">-</span> Single Portfolio 2</a></li>
+										   <li><a class="dropdown-item fs-14" href="single-port-3.html"><span class="color-blue">-</span> Single Portfolio 3</a></li>
+										   <li><a class="dropdown-item fs-14" href="single-port-4.html"><span class="color-blue">-</span> Single Portfolio 4</a></li>
+							  			</ul>
+								   </div>
+							  </div> 
+						  </div>
+					  </li>
+					  <li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Pages
+						  </a>
+						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						      <a class="dropdown-item fs-14" href="features-page.html"><span class="color-blue">-</span> Features</a>
+						      <a class="dropdown-item fs-14" href="about-page.html"><span class="color-blue">-</span> About</a>
+							  <a class="dropdown-item fs-14" href="services-page.html"><span class="color-blue">-</span> Services</a>
+							  <a class="dropdown-item fs-14" href="leadership-page.html"><span class="color-blue">-</span> Leadership</a>
+							  <a class="dropdown-item fs-14" href="contact-page.html"><span class="color-blue">-</span> Contact</a>
+							  <a class="dropdown-item fs-14" href="login-page.html"><span class="color-blue">-</span> Log In</a>
+							  <a class="dropdown-item fs-14" href="register-page.html"><span class="color-blue">-</span> Register</a>
+							  <a class="dropdown-item fs-14" href="lost-password-page.html"><span class="color-blue">-</span> Lost Password</a>
+						  </div>
+					  </li>
+					  <li class="nav-item log-in">
+					  	<a class="nav-link flex-center bg-blue radius-5px transition-3" href="login-page.html">Log In</a>
+					  </li>
+				  </ul> -->
+			  </div>
+		  </div>
+	  </nav>
+	  <!-- ==================================================
+							End navbar
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							welcome-slider
+      ================================================== -->
+	<!--  <section class="welcome-slider sec-padding p-relative o-hidden bg-gray" data-scroll-index="1">   
+		  <div class="container">
+			  <div class="owl-carousel owl-theme">
+				  <div class="item">
+					  <div class="row sec-padding flex-center">
+						  <div class="col-md-6 mb-50px z-index-1">
+							  <h1 class="mb-20px">Your business deserves better software</h1>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
+							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
+						  </div>
+						  <div class="col-md-6 text-center">
+							  <img alt="img" src="https://via.placeholder.com/1450x1100">
+						  </div>
+					  </div>
+				  </div>
+				  <div class="item">
+					  <div class="row sec-padding flex-center">
+						  <div class="col-md-6 mb-50px z-index-1">
+							  <h1 class="mb-20px">Your business deserves better software</h1>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
+							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
+						  </div>
+						  <div class="col-md-6 text-center">
+							  <img alt="img" src="https://via.placeholder.com/750x640">
+						  </div>
+					  </div>
+				  </div>
+				  <div class="item">
+					  <div class="row sec-padding flex-center">
+						  <div class="col-md-6 mb-50px z-index-1">
+							  <h1 class="mb-20px">Your business deserves better software</h1>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
+							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
+						  </div>
+						  <div class="col-md-6 text-center">
+							  <img alt="img" src="https://via.placeholder.com/722x700">
+						  </div>
+					  </div>
+				  </div>
+			  </div>   
+		  </div>
+		  <div class="pattern p-absolute">
+		  </div>
+      </section> -->
+	  <!-- ==================================================
+							End welcome-slider
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							features-area
+      ================================================== -->
+	  <div class="welcome-page sec-padding text-center bg-gray h-auto">
+		  <div class="container">
+					  <div class="row sec-padding flex-center">
+						  <div class="col-md-6 z-index-1">
+							  <h1 class="mb-20px">Coming Soon!!!</h1>
+							  <p>Create Decentralized Solutions using Blockchain and Distributed Ledger Technologies </p>
+							  
+								Contact us for any enquiry at: <a href="mailto:punit@dazlabs.com">punit@dazlabs.com</a> 
+						  </div>
+						  <div class="col-md-6 sec-padding text-center flex-center">
+								<div id="countdown">
+										<div id='tiles'></div>
+										<div class="labels">
+											<li>Days</li>
+											<li>Hours</li>
+											<li>Mins</li>
+											<li>Secs</li>
+										</div>
+									</div>
+						  </div>
+					  </div>
+			  </div>
+			</div>
+	  <!-- ==================================================
+							End features-area
+      ================================================== -->
+	  
+	  
+	  <!-- ==================================================
+							scroll-top-btn
+      ================================================== -->
+	  <div class="scroll-top-btn text-center">
+		  <i class="fa fa-angle-up fs-20 color-fff bg-blue bg-orange-hvr radius-50"></i>          
+	  </div>
+	  <!-- ==================================================
+							End scroll-top-btn
+      ================================================== -->
+	  
+	
+		<script>
+			var target_date = new Date(2019,2,13,0,0); // set the countdown date
+			var days, hours, minutes, seconds; // variables for time units
+	
+			var countdown = document.getElementById("tiles"); // get tag element
+	
+			getCountdown();
+	
+			setInterval(function () { getCountdown(); }, 1000);
+	
+			function getCountdown(){
+	
+				// find the amount of "seconds" between now and target
+				var current_date = new Date().getTime();
+				var seconds_left = (target_date - current_date) / 1000;
+	
+				days = pad( parseInt(seconds_left / 86400) );
+				seconds_left = seconds_left % 86400;
+					
+				hours = pad( parseInt(seconds_left / 3600) );
+				seconds_left = seconds_left % 3600;
+					
+				minutes = pad( parseInt(seconds_left / 60) );
+				seconds = pad( parseInt( seconds_left % 60 ) );
+	
+				// format countdown string + set tag value
+				countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
+			}
+	
+			function pad(n) {
+				return (n < 10 ? '0' : '') + n;
+			}
+		</script>  
+	  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/lightbox.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+	<script src="js/validator.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/wow.min.js"></script>
+	    
+  </body>
+</html>
