@@ -218,7 +218,7 @@ $(function () {
 
 $(window).on("load",function (){
 	
-     $('.load-wrapp').fadeOut(100);
+    $('.loader').fadeOut(100);
 	
 	/* isotope */
     $('.grid').isotope({
@@ -244,6 +244,5 @@ $(window).on("load",function (){
         $(this).addClass('active').siblings().removeClass('active');
 
     });
-
       
 });

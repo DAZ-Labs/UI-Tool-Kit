@@ -4,10 +4,24 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>DAZ Labs | Landing Page</title>
-    <!-- Bootstrap CSS -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+	<title>DAZ Labs | Professional Blockchain, Mobile and Web App Service Providers</title>
+    <meta name="description" content="Professional Blockchain(Smart contracts, DApps, protocol, ICO, whitepaper), Android, and Full-Stack Web App service company.">
+    <meta name="keywords" content="blockchain,bitcoin,blockchain technology,block chain">
+    <meta name="keywords" content="localbitcoins,bitcoin news,cryptocurrency,blockchain news,blockchain">
+    <meta name="keywords" content="projects,dap,dapps,dapp,smart contracts,protocol,web developer,web design">
+    <meta name="keywords" content="ecommerce,e commerce,website design company,web developement company,e commerce website">
+    <meta name="keywords" content="html,javascript,js,angular js,html5,create react app,php,html form">
+    <meta name="keywords" content="css,webnode,react,nodejs,html button,html table,css border,css background image">
+    <meta name="keywords" content="graphic design,node,node js,react js,html code, reactjs">
+    <meta name="keywords" content=" css3,design,designer,graphics,web design,angular,react router,react,native,react native">
+    <meta name="keywords" content="hosting,domain,the domain,responsive css">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/add.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/et-line-icons.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/iconmonstr-iconic-font.min.css"/>
     <link rel="stylesheet" href="css/lity.min.css"/>
@@ -17,153 +31,22 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
-	<style>
-		.navbar {
-			padding-bottom: 25px;
-			padding-top: 25px;
-		}
-        #countdown{
-			/* margin-top: -100px; */
-            width: 465px;
-            height: 112px;
-            text-align: center;
-            background-color: transparent;
-            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
-            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
-            margin: auto;
-            padding: 24px 0;
-            /* position: absolute; */
-        top: 0; bottom: 0; left: 0; right: 0;
-        }
-
-        #countdown:before{
-            content:"";
-            width: 8px;
-            height: 65px;
-            background-color: transparent;
-            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
-            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
-            display: block;
-            position: absolute;
-            top: 48px; left: -10px;
-        }
-
-        #countdown:after{
-            content:"";
-            width: 8px;
-            height: 65px;
-            background-color: transparent;
-            /* background-image: -webkit-linear-gradient(top, #fff, #fff, #fff, #fff); 
-            background-image:    -moz-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:     -ms-linear-gradient(top, #fff, #fff, #fff, #fff);
-            background-image:      -o-linear-gradient(top, #fff, #fff, #fff, #fff); */
-            display: block;
-            position: absolute;
-            top: 48px; right: -10px;
-        }
-
-        #countdown #tiles{
-            position: relative;
-            z-index: 1;
-        }
-
-        #countdown #tiles > span{
-            width: 92px;
-            max-width: 92px;
-            font: bold 48px 'Droid Sans', Arial, sans-serif;
-            text-align: center;
-            color: #111;
-            background-color: transparent;
-            background-image: -webkit-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514)); 
-            background-image:    -moz-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
-            background-image:     -ms-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
-            background-image:      -o-linear-gradient(top, rgba(255, 2, 2, 0.226), rgba(255, 2, 2, 0.514));
-            /* border-top: 1px solid #fff; */
-            border-radius: 3px;
-            /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7); */
-            margin: 0 7px;
-            padding: 18px 0;
-            display: inline-block;
-            position: relative;
-        }
-
-        #countdown #tiles > span:before{
-            content:"";
-            width: 100%;
-            height: 13px;
-            /* background: #111; */
-            display: block;
-            padding: 0 3px;
-            position: absolute;
-            top: 41%; left: -3px;
-            z-index: -1;
-        }
-
-        #countdown #tiles > span:after{
-            content:"";
-            width: 100%;
-            height: 1px;
-            /* background: #eee; */
-            /* border-top: 1px solid rgba(255, 2, 2, 0.3); */
-            display: block;
-            position: absolute;
-            top: 48%; left: 0;
-        }
-
-        #countdown .labels{
-            width: 100%;
-            height: 25px;
-            text-align: center;
-            /* position: absolute; */
-            bottom: 8px;
-        }
-
-        #countdown .labels li{
-            width: 102px;
-            font:  15px 'Droid Sans', Arial, sans-serif;
-            color: #000;
-            text-align: center;
-            text-transform: uppercase;
-            display: inline-block;
-			
-        }
-		.welcome-page {
-			padding-top: 100px !important;
-		}
-
-		@media only screen and (max-width: 1000px) {
-			#countdown{ 
-				display: none;
-			}
-
-			.welcome-page {
-				padding-top: 100px !important;
-			}
-
-			.navbar {
-				padding-bottom: 0px;
-				padding-top: 0px;
-			}
-		}
-	</style>
-	</head>
-  <body style="background-color: #edf5ff;">
+	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> 
+  </head>
+  <body oncontextmenu="return false">
 	  <!-- ==================================================
 							load-wrapp
       ================================================== -->
 	  <div class="load-wrapp">
-		  <div class="wrap">
-			  <ul class="dots-box">
-			    <li class="dot"><span></span></li>
-			    <li class="dot"><span></span></li>
-			    <li class="dot"><span></span></li>
-			    <li class="dot"><span></span></li>
-			    <li class="dot"><span></span></li>
-			  </ul>
+		  <div class="loader">
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__ball"></div>
 		  </div>
       </div> 
 	  <!-- ==================================================
@@ -175,106 +58,37 @@
       ================================================== -->
 	  <nav class="navbar navbar-expand-lg">
 		  <div class="container">
-			  <a class="navbar-brand" href="#"> 
-				  <img src="images/logo.png" alt="logo">
+			  <a class="navbar-brand" href="index.html">
+				  <img src="images/logo.png" alt="logo" class="logo">
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="fa fa-bars"></span>
 			  </button>
-		<!--	  <div class="collapse navbar-collapse" id="main-navbar">
+			  <div class="collapse navbar-collapse" id="main-navbar">
 				  <ul class="navbar-nav ml-auto">  
 				      <li class="nav-item">
-					  	<a class="nav-link" href="" data-scroll-nav="1">Home</a>
+					  	<a class="nav-link" href="">Home</a>
 				  	  </li>
 					  <li class="nav-item">
-					  	<a class="nav-link" href="#" data-scroll-nav="2">Features</a>
+					  	<a class="nav-link" href="#services">Services</a>
+					  </li>			 
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#clients">Clients</a>
 					  </li>
 					  <li class="nav-item">
-					  	<a class="nav-link" href="#" data-scroll-nav="3">About</a>
+					  	<a class="nav-link" href="#team">Team</a>
+					  </li>					  
+					  <li class="nav-item">
+					  	<a class="nav-link" href="#contact">Contact Us</a>
 					  </li>
 					  <li class="nav-item">
-					  	<a class="nav-link" href="#" data-scroll-nav="4">Services</a>
+					  	<a class="nav-link" href="https://medium.com/@dzentraz" target="_blank">Blog</a>
 					  </li>
-					  <li class="nav-item">
+<!-- 					  <li class="nav-item">
 					  	<a class="nav-link" href="#" data-scroll-nav="5">Faqs</a>
+					  </li> -->
 					  </li>
-					  <li class="nav-item">
-					  	<a class="nav-link" href="#" data-scroll-nav="6">Pricing</a>
-					  </li>
-					  <li class="nav-item dropdown">
-						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    Blog
-						  </a>
-						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						      <a class="dropdown-item fs-14" href="blog-list.html"><span class="color-blue">-</span> Blog List</a>
-						      <a class="dropdown-item fs-14" href="blog-grid.html"><span class="color-blue">-</span> Blog Grid</a>
-							  <a class="dropdown-item fs-14" href="single-blog-page.html"><span class="color-blue">-</span> Single Blog </a>
-						  </div>
-					  </li>
-					  <li class="nav-item dropdown mega-item">
-						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    Portfolio
-						  </a>
-						  <div class="dropdown-menu mega-menu pb-20px" aria-labelledby="navbarDropdown">
-						       <div class="row">
-								   <div class="col-lg-3">
-									   <ul class="pl-15px mt-25px list-unstyled">
-										   <li><h5 class="fw-600">Portfolio 1</h5></li>
-										   <li><a class="dropdown-item fs-14" href="port1-grid-2col.html"><span class="color-blue">-</span> Grid 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port1-grid-3col.html"><span class="color-blue">-</span> Grid 3 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port1-mas-2col.html"><span class="color-blue">-</span> Masonry 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port1-mas-3col.html"><span class="color-blue">-</span> Masonry 3 col</a></li>
-							  			</ul>
-								   </div>
-								   <div class="col-lg-3">
-									   <ul class="pl-15px mt-25px list-unstyled">
-										   <li><h5 class="fw-600">Portfolio 2</h5></li>
-										   <li><a class="dropdown-item fs-14" href="port2-grid-2col.html"><span class="color-blue">-</span>Grid 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port2-grid-3col.html"><span class="color-blue">-</span>Grid 3 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port2-mas-2col.html"><span class="color-blue">-</span>Masonry 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port2-mas-3col.html"><span class="color-blue">-</span>Masonry 3 col</a></li>
-							  			</ul>
-								   </div>
-								   <div class="col-lg-3">
-									   <ul class="pl-15px mt-25px list-unstyled">
-										   <li><h5 class="fw-600">Portfolio 3</h5></li>
-										   <li><a class="dropdown-item fs-14" href="port3-grid-2col.html"><span class="color-blue">-</span> Grid 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port3-grid-3col.html"><span class="color-blue">-</span> Grid 3 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port3-mas-2col.html"><span class="color-blue">-</span> Masonry 2 col</a></li>
-										   <li><a class="dropdown-item fs-14" href="port3-mas-3col.html"><span class="color-blue">-</span> Masonry 3 col</a></li>
-							  			</ul>
-								   </div>
-								   <div class="col-lg-3">
-									   <ul class="pl-15px mt-25px list-unstyled">
-										   <li><h5 class="fw-600">Single Portfolio</h5></li>
-										   <li><a class="dropdown-item fs-14" href="single-port-1.html"><span class="color-blue">-</span> Single Portfolio 1</a></li>
-										   <li><a class="dropdown-item fs-14" href="single-port-2.html"><span class="color-blue">-</span> Single Portfolio 2</a></li>
-										   <li><a class="dropdown-item fs-14" href="single-port-3.html"><span class="color-blue">-</span> Single Portfolio 3</a></li>
-										   <li><a class="dropdown-item fs-14" href="single-port-4.html"><span class="color-blue">-</span> Single Portfolio 4</a></li>
-							  			</ul>
-								   </div>
-							  </div> 
-						  </div>
-					  </li>
-					  <li class="nav-item dropdown">
-						  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    Pages
-						  </a>
-						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						      <a class="dropdown-item fs-14" href="features-page.html"><span class="color-blue">-</span> Features</a>
-						      <a class="dropdown-item fs-14" href="about-page.html"><span class="color-blue">-</span> About</a>
-							  <a class="dropdown-item fs-14" href="services-page.html"><span class="color-blue">-</span> Services</a>
-							  <a class="dropdown-item fs-14" href="leadership-page.html"><span class="color-blue">-</span> Leadership</a>
-							  <a class="dropdown-item fs-14" href="contact-page.html"><span class="color-blue">-</span> Contact</a>
-							  <a class="dropdown-item fs-14" href="login-page.html"><span class="color-blue">-</span> Log In</a>
-							  <a class="dropdown-item fs-14" href="register-page.html"><span class="color-blue">-</span> Register</a>
-							  <a class="dropdown-item fs-14" href="lost-password-page.html"><span class="color-blue">-</span> Lost Password</a>
-						  </div>
-					  </li>
-					  <li class="nav-item log-in">
-					  	<a class="nav-link flex-center bg-blue radius-5px transition-3" href="login-page.html">Log In</a>
-					  </li>
-				  </ul> -->
+				  </ul>
 			  </div>
 		  </div>
 	  </nav>
@@ -285,53 +99,22 @@
 	  <!-- ==================================================
 							welcome-slider
       ================================================== -->
-	<!--  <section class="welcome-slider sec-padding p-relative o-hidden bg-gray" data-scroll-index="1">   
-		  <div class="container">
-			  <div class="owl-carousel owl-theme">
-				  <div class="item">
-					  <div class="row sec-padding flex-center">
-						  <div class="col-md-6 mb-50px z-index-1">
-							  <h1 class="mb-20px">Your business deserves better software</h1>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
-							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
-						  </div>
-						  <div class="col-md-6 text-center">
-							  <img alt="img" src="https://via.placeholder.com/1450x1100">
-						  </div>
-					  </div>
+      <section class="welcome-area sec-padding p-relative o-hidden">
+		  <div class="container landing-container">
+			  <div class="row welcome-text sec-padding flex-center">
+				  <div class="col-md-6 mb-50px z-index-1">
+					  <h1 class="mb-20px top-heading">Step into a Digital Future</h1>
+					  <p class="title-p" style="text-align: left;">We turn your ideas into reality. Our solutions are perfectly tailored for your diverse business needs.</p>
 				  </div>
-				  <div class="item">
-					  <div class="row sec-padding flex-center">
-						  <div class="col-md-6 mb-50px z-index-1">
-							  <h1 class="mb-20px">Your business deserves better software</h1>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
-							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
-						  </div>
-						  <div class="col-md-6 text-center">
-							  <img alt="img" src="https://via.placeholder.com/750x640">
-						  </div>
-					  </div>
+				  <div class="col-md-6 text-center">
+					  <img alt="img" src="images/title.png">
 				  </div>
-				  <div class="item">
-					  <div class="row sec-padding flex-center">
-						  <div class="col-md-6 mb-50px z-index-1">
-							  <h1 class="mb-20px">Your business deserves better software</h1>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							  <a class="main-btn btn-3 mt-40px mr-10px before-gray" href="#">Get Started</a>
-							  <a class="main-btn btn-3 btn-orange mt-10px before-gray" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" data-lity><i class="fa fa-play"></i> Watch Our Video</a>
-						  </div>
-						  <div class="col-md-6 text-center">
-							  <img alt="img" src="https://via.placeholder.com/722x700">
-						  </div>
-					  </div>
-				  </div>
-			  </div>   
+			  </div>
 		  </div>
-		  <div class="pattern p-absolute">
+		  <div class="shape-1 bg-orange-lh p-absolute">
 		  </div>
-      </section> -->
+	  </section>
+	  
 	  <!-- ==================================================
 							End welcome-slider
       ================================================== -->
@@ -339,31 +122,605 @@
 	  <!-- ==================================================
 							features-area
       ================================================== -->
-	  <div class="welcome-page sec-padding text-center bg-gray h-auto">
+	  <section class="features-area sec-padding text-center" id="services">
 		  <div class="container">
-					  <div class="row sec-padding flex-center">
-						  <div class="col-md-6 z-index-1">
-							  <h1 class="mb-20px">Coming Soon!!!</h1>
-							  <p>Create Decentralized Solutions using Blockchain and Distributed Ledger Technologies </p>
-							  
-								Contact us for any enquiry at: <a href="mailto:punit@dazlabs.com">punit@dazlabs.com</a> 
-						  </div>
-						  <div class="col-md-6 sec-padding text-center flex-center">
-								<div id="countdown">
-										<div id='tiles'></div>
-										<div class="labels">
-											<li>Days</li>
-											<li>Hours</li>
-											<li>Mins</li>
-											<li>Secs</li>
-										</div>
-									</div>
-						  </div>
-					  </div>
-			  </div>
-			</div>
+			  <h1 class="title-h wow fadeInUp" data-wow-delay="0.1s">Services Offered</h1>
+			  <p class="title-p wow fadeInLeft" data-wow-delay="0.1s">We offer Blockchain, Web and Mobile Development services together with Analysis, Project Management, and Quality Commitment. We cater all the resources needed to develop a stable and scalable product.</p>
+			  <div class="row">
+				<div class="col-md-4">
+					<div class="card wow fadeInLeft" style="width: 18rem;" data-toggle="modal" data-wow-delay="0.9s">
+  						<img class="card-img-top" src="images/blockchain2.jpg" alt="Card image cap">
+  						<h5 class="card-head">Blockchain</h5>
+  						
+  					</div>
+
+  					<!--<div id="myModal" class="modal fade" role="dialog">
+				  		<div class="modal-dialog">
+							<div class="modal-content">
+					    		<div class="modal-header">
+					        		<i class="far fa-times-circle close" data-dismiss="modal"></i>
+					    		</div>
+					    		<div class="row">
+					    			<div class="col-lg-7">
+					    				<h2 class="popup-h">Blockchain</h2>
+					    				<p class="popup-p">
+					    					Blockchain is here to stay. Whether creating a protocol for your company, a smart contract for your use case or empowering your dApps through backend – we cover a wide spectrum of solutions and frameworks.
+					    				</p>
+					    			</div>
+					    			<div class="col-lg-5">
+					    				<img class="pop-image" src="images/blockchain.jpg" alt="Card image cap">
+					    			</div>
+					    		</div>
+							</div>
+						</div>
+					</div>-->
+				</div>
+				<div class="col-md-4">
+					<div class="card wow fadeInDown" style="width: 18rem;" data-toggle="modal" data-toggle="modal" data-wow-delay="0.9s">
+  						<img class="card-img-top" src="images/webD2.jpg" alt="Web Development">
+  						<h5 class="card-head">Web Development</h5>
+  						
+  					</div>
+
+  					<!--<div id="myModal1" class="modal fade" role="dialog">
+				  		<div class="modal-dialog">
+							<div class="modal-content">
+					    		<div class="modal-header">
+					        		<i class="far fa-times-circle close" data-dismiss="modal"></i>
+					    		</div>
+					    		<div class="row">
+					    			<div class="col-lg-7">
+					    				<h2 class="popup-h">Website Development</h2>
+					    				<p class="popup-p">
+					    					We design and develop a website with the most intricate details and proven strategies for medium companies and small businesses. We deliver a robust and cost-effective solution from raw idea to a scalable product.
+					    				</p>
+					    			</div>
+					    			<div class="col-lg-5">
+					    				<img class="pop-image" src="images/webD.jpg" alt="Card image cap">
+					    			</div>
+					    		</div>
+							</div>
+						</div>
+					</div>-->
+				</div>
+				<div class="col-md-4">
+					<div class="card wow fadeInRight" style="width: 18rem;" data-toggle="modal" data-toggle="modal" data-wow-delay="0.9s">
+  						<img class="card-img-top" src="images/appD.jpg" alt="Card image cap">
+  						<h5 class="card-head">Mobile Development</h5>
+  						
+  					</div>
+
+  					<!--<div id="myModal2" class="modal fade" role="dialog">
+				  		<div class="modal-dialog">
+							<div class="modal-content">
+					    		<div class="modal-header">
+					        		<i class="far fa-times-circle close" data-dismiss="modal"></i>
+					    		</div>
+					    		<div class="row">
+					    			<div class="col-lg-7">
+					    				<h2 class="popup-h">Mobile Development</h2>
+					    				<p class="popup-p">
+					    					We help you create top-notch native, cross-compiled, hybrid mobile applications by compiling google’s material design and our own unique vision we create interfaces that catch your user’s attention while solving your problems.
+					    				</p>
+					    			</div>
+					    			<div class="col-lg-5">
+					    				<img class="pop-image" src="images/appD.jpg" alt="Card image cap">
+					    			</div>
+					    		</div>
+							</div>
+						</div>
+					</div>-->
+				</div>
+		  </div>
+		   
+	  </section>
 	  <!-- ==================================================
 							End features-area
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							about-area
+      ================================================== -->
+	  <section class="features-area sec-padding text-center  triangle-top triangle-bottom customers-sec">
+		  	<div class="container">
+			  	<h1 class="title-h" data-wow-delay="0.2s">What do our customers get?</h1>
+			  	<div class="row">
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUpBig" data-wow-delay="0.3s">
+
+						  	<i class="fas fa-desktop fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Deep Tech Expertise</h4>
+    					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  <div class="mt-25px mb-25px wow fadeInUpBig" data-wow-delay="0.5s">
+
+					  	  <i class="fas fa-fist-raised fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>
+						  <!--<i class="im im-diamond-o fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  -->
+						  <h4>Commitment</h4>
+					  </div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUpBig" data-wow-delay="0.7s">
+
+						  	<i class="fas fa-clock fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Time track</h4>
+     					</div>
+				  	</div>
+			  	</div>
+			  	<div class="row">
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.3s">
+
+						  	<i class="fas fa-circle-notch fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Agile Approach</h4>
+       					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.5s">
+					  		
+						  	<i class="fas fa-poll fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Best Results</h4>
+    					</div>
+				  	</div>
+				  	<div class="col-md-4">
+					  	<div class="mt-25px mb-25px wow fadeInUp" data-wow-delay="0.7s">
+					  		
+						  	<i class="fas fa-people-carry fs-35 color-orange bg-gray radius-50 mb-20px transition-3"></i>  
+						  	<h4>Scalability</h4>
+ 						</div>
+				  	</div>
+			  	</div>
+		  	</div>
+		  
+	  </section>
+	  <!-- ==================================================
+							End about-area
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							services-area
+      ================================================== -->
+	  <section class="how-work-3 sec-padding text-center approach-sec">
+		  <div class="approach-container">
+			  <h1 class="title-h approach-heading" style="margin-right: 16vw;">Our approach to your problems</h1>
+			  
+			  <div class="row">
+				  <div class="col-md-2 how-box p-relative first wow fadeInRight approach-col" data-wow-delay="0.2s">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">01</span>
+						  <h4 class="mb-10px">Analysis</h4>
+						  <p>We Analyze, Document and Validate software requirements of your project.</p>
+					   </div>
+				  </div>
+				  <div class="col-md-2 how-box p-relative wow fadeInRight approach-col" data-wow-delay="0.4s">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">02</span>
+						  <h4 class="mb-10px">Design</h4>
+						  <p>We draw the structure and break the problem into required software components.</p>
+					   </div>
+				  </div>
+				  <div class="col-md-2 how-box p-relative wow fadeInRight approach-col" data-wow-delay="0.6s">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">03</span>
+						  <h4 class="mb-10px">Develop</h4>
+						  <p>Our expertise in the technology allows us to provide you with the best solution.</p>
+					   </div>
+				  </div>
+				  <div class="col-md-2 how-box p-relative wow fadeInRight approach-col" data-wow-delay="0.8s">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">04</span>
+						  <h4 class="mb-10px">Deploy</h4>
+						  <p>We take care of deployment while providing secure and reliable integrations.</p>
+					   </div>
+				  </div>
+				  <div class="col-md-2 how-box p-relative last wow fadeInRight approach-col" data-wow-delay="1.0s">
+					  <div class="mt-25px mb-25px">
+						  <span class="d-inline-block fs-30 fw-600 radius-10px mb-20px bg-orange-lh color-orange p-relative transition-3">05</span>
+						  <h4 class="mb-10px">Support</h4>
+						  <p>We provide technical support to keep your software environment running efficiently.</p>
+					   </div>
+				  </div>
+				  <div class="col-md-2"></div>
+			  </div>  
+		  </div>
+	  </section>
+	  
+	  <section class="price-area-2 p-relative big-padding text-center values-sec triangle-top">
+		  	<div class="container">
+
+		  		<h1 class="title-h">Our Values</h1>
+			  	<div class="row">
+			  	  	
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.35s">
+						  	<img src="images/Excellence.png">  
+						  	<h4 class="color-orange mb-15px values-heading">Work Excellence</h4>
+						  	<hr>
+						  	<p>Our employees impact lives every day by exceeding expectations and creating WOW moments while at work.</p>
+					  	</div>
+				  	</div>
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.35s">
+						  	<img src="images/Brain Storming.png">
+						  	<h4 class="color-orange mb-15px values-heading">Brainstorm</h4>
+						  	<hr>
+						  	<p>Our team brainstorms on our customer’s problem and each idea of an individual eventually adds to up to be our customer’s final product.</p>
+					  	</div>
+				  	</div>
+				  	
+			  	</div>
+			  	<div class="row">
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.55s">
+						  	<img src="images/knowledge.png">  
+						  	<h4 class="color-orange mb-15px values-heading">Knowledge Sharing</h4>
+						  	<hr>
+						  	<p>By teaching others, we teach ourselves. Sharing knowledge within the organization and to the world at large is an intelligent way of doing business.</p>
+					  	</div>
+				  	</div>
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.55s">
+						  	<img src="images/collaborate.png"> 
+						  	<h4 class="color-orange mb-15px values-heading">Team Spirit</h4>
+						  	<hr>
+						  	<p>Everything eventually boils down to team spirit, as great feats are accomplished in teams, not by individuals. We are team players and always on the outlook for similar individuals. Because the success of our team is integral to our success.</p>
+					  	</div>
+				  	</div>
+				</div>
+				<div class="row">
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.75s">
+						  	<img src="images/trust.jpg">
+						  	<h4 class="color-orange mb-15px">Trust</h4>
+						  	<hr>
+						  	<p>One of the key aspects in our relationship with clients is building trust and the ability to be trusted. Trust is built by being honest, working consistently and delivering great results.</p>
+					  	</div>
+				  	</div>
+				  	<div class="col-md-6">
+					  	<div class="p-relative mt-25px mb-25px p-30px wow fadeInUp" data-wow-delay="0.75s">
+						  	<img src="images/adaptive.png">   
+						  	<h4 class="color-orange mb-15px">Adaptability</h4>
+						  	<hr>
+						  	<p>To adapt is to be the right “thing” at the right time. Adapting to change is what keeps us relevant, valuable and at the forefront of the competitive edge.</p>
+					  	</div>
+				  	</div> 
+
+			  	</div>
+			</div>
+		  <!--<div class="pattern-top p-absolute bg-orange-lh "></div>
+		  <div class="pattern-bottom p-absolute bg-orange-lh "></div>-->
+	  </section>
+	  <!--<section class="sec-padding faqs" data-scroll-index="5">
+		  <div class="container">
+			  <h1 class="title-h">Frequently Asked Question</h1>
+			  <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <div class="box mt-25px mb-25px wow fadeInLeft" data-wow-delay="0.7s"> 
+						  <h6 class="orange mb-15px radius-50px pl-20px pt-7px pb-7px"><span class="mr-5px fs-30">-</span> What you get after buying our product?</h6>
+                    	  <p class="pl-20px mb-15px background-f4f4f4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						  <h6 class="blue mb-15px radius-50px pl-20px pt-7px pb-7px"><span class="mr-5px fs-30">-</span> What are features inside the template?</h6>
+                    	  <p class="pl-20px mb-15px background-f4f4f4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						  <h6 class="blue mb-15px radius-50px pl-20px pt-7px pb-7px"><span class="mr-5px fs-30">-</span> What are the plugins  used?</h6>
+                    	  <p class="pl-20px mb-15px background-f4f4f4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						  <h6 class="blue mb-15px radius-50px pl-20px pt-7px pb-7px"><span class="mr-5px fs-30">-</span> What are features inside the template?</h6>
+                    	  <p class="pl-20px mb-15px background-f4f4f4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+				  </div>
+				  <div class="col-md-6">
+					  <div class="mt-25px mb-25px wow fadeInRight" data-wow-delay="0.45s"> 
+						  <img alt="img" src="https://via.placeholder.com/550x310">
+                      </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>-->
+	  <!-- ==================================================
+							End faqs
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							price-area
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							End price-area
+      ================================================== -->
+
+	  
+	  <!-- ==================================================
+							brands-area
+      ================================================== -->
+	  <section class="brands-area sec-padding text-center" id="clients">
+		  <div class="approach-container">
+			  <h1 class="title-h approach-heading" style="margin-right: 16vw;">Clients & Partnerships</h1>
+			  <p class="title-p"></p>
+			  <div class="row">
+				  <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+					  <div class="mt-30px mb-30px">
+						  <img alt="XinFin Hybrid Blockchain" src="images/xinfin logo.png" class="logos">
+					  </div>
+				  </div>
+				  <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+					  <div class="mt-25px mb-30px">
+						  <img alt="Bitcoin Caffee" src="images/bitcoin cafe logo.png" class="logos">
+					  </div>
+				  </div>
+				  <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+					  <div class="mt-25px mb-30px">
+						  <img alt="Emergex" src="images/emergex logo.png" class="logos">
+					  </div>
+				  </div>
+				  <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+					  <div class="mt-25px mb-30px">
+						  <img alt="img" src="images/nibs logo.png" class="logos">
+					  </div>
+				  </div>
+				  <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+					  <div class="mt-25px mb-30px">
+						  <img alt="img" src="images/panaache logo.png" class="logos">
+					  </div>
+				  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  <!-- ==================================================
+							End brands-area
+      ================================================== -->
+	  <section class="team-area-2" id="team">
+		  <div class="container">
+			  <h1 class="title-h">Our Team Members</h1>
+			  
+			  <div class="row team-container">
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/Punit.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/punit-agarwal-2403/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="https://github.com/punit-agarwal" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Punit Agarwal</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Blockchain Strategist</span>
+					  </div>
+				  </div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+				  		<div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/neelansh.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/neelanshsethi/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Neelansh Sethi</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Android Developer</span>
+					  </div>
+				  </div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/muskan.jpeg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/muskan-kalra-679327159/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="https://github.com/muskaankalra24/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Muskan Kalra</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Solidity Developer</span>
+					  </div>
+				  </div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/aniket.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="www.linkedin.com/in/jain-aniket" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="https://github.com/aniket223" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Aniket Jain</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Blockchain Engineer</span> 
+					  </div>
+				  </div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/Yogesh.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/yogesh-agarwal-4aa1bb148/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="https://github.com/Yogesh188" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Yogesh Agarwal</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Blockchain Developer</span>
+					  </div>
+				  </div>
+				  	<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/atharva-final.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/atharva-sharma/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="https://github.com/atharvasharma" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Atharva Sharma</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Full Stack Developer</span> 
+					  </div>
+			  	</div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/kushagra.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/kushagra-agarwal-115a2b156/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-behance"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Kushagra Agarwal</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Graphic Designer</span>
+					  </div>
+				  </div>
+				  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+					  <div class="mt-25px mb-25px">
+						  <div class="p-relative o-hidden d-inline-block radius-10px mb-20px ml-auto mr-auto">
+						  	  <img src="images/saatvik.jpg" alt="img" class="radius-10px transition-3">
+							  <div class="social p-absolute flex-center transition-4">
+								  <a href="https://www.linkedin.com/in/saatvik-gupta-b85282152/" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-linkedin"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-twitter"></i></a>
+								  <a href="#0" class="color-fff fs-14 d-inline-block radius-50 bg-orange-hvr color-fff-hvr transition-2 mr-2px ml-2px"><i class="fa fa-github"></i></a>
+							  </div>
+						  </div>
+						  <h5 class="mb-0px">Saatvik Gupta</h5>
+						  <span class="color-blue fs-15 d-block mb-15px">Digital Marketing Manager</span>
+					  </div>
+				  </div>
+		  </div>
+	  </section>
+	  <!-- ==================================================
+							get-started
+      ================================================== -->
+	  <section class="get-started bg-orange sec-padding text-center p-relative" id="contact">
+		  <div class="container">
+			  <div class="row mb-50px">
+				  <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 z-index-2">
+					  <h3 class="color-fff mb-10px">Thanks for visiting us</h3>
+					  <p class="color-eee mb-30px">It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.</p>
+					  
+						  
+					  	<a href="#contact">  <button class="bg-blue color-fff radius-50px pr-15px pl-15px pt-7px pb-7px no-border">Drop us a message</button></a>
+					  
+				  </div>
+			  </div>
+			  <div class="patt p-absolute left-0"></div>
+			  <div class="patt-2 p-absolute left-0"></div>
+		  </div>
+	  </section>
+	  <!-- ==================================================
+							End get-started
+      ================================================== -->
+	  
+	  <!-- ==================================================
+							footer-area
+      ================================================== -->
+	 <!-- <section class="footer-area sec-padding" >
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-lg-3 col-sm-6">
+					  <div class="mt-25px mb-25px">
+						  <img src="images/logo.png" class="mb-20px" alt="img">
+						  <p class="mb-20px">We provide blockchain cosultancy services and solutions.</p>
+					  </div>
+				  </div>
+				  <div class="col-lg-1 col-sm-6"></div>
+				  <div class="col-lg-4 col-sm-6">
+					  <div class="mt-25px mb-25px links">
+						  <h4 class="mb-20px">Recent Blogs</h4>
+						  <h6 class="mb-10px">
+							  <i class="far fa-dot-circle"></i> <a href="https://medium.com/@dzentraz/understanding-dpos-680d85635f62" target = "_blank" class="color-333 color-blue-hvr transition-3">Understanding DPOS Consensus Mechanism</a>
+						  </h6>
+						  <h6 class="mb-10px">
+								<i class="far fa-dot-circle"></i> <a href="https://medium.com/@dzentraz/an-introduction-to-smart-contracts-ba92fb6d17ad" target = "_blank" class="color-333 color-blue-hvr transition-3">An Introduction to Smart Contracts</a>
+						  </h6>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6">
+					  <div class="mt-25px mb-25px">
+						  <h4 class="mb-20px">Contact Info</h4>
+						  <p class="mb-20px">We would love to attend you. Reach us out on:</p>
+						  <h6><i class="fa fa-map-marker mr-5px fs-15 color-orange bg-gray radius-50 address text-center"></i>Jaipur, India</h6>
+						  <h6><i class="fa fa-phone mr-5px fs-15 color-orange bg-gray radius-50 address text-center"></i> +(91) 8327794527</h6>
+						  <h6 class="mb-30px"><i class="fa fa-envelope mr-5px fs-15 color-orange bg-gray radius-50 address text-center"></i> support@dazlabs.com</h6>
+						  <a href="https://twitter.com/DAZLabOfficial" class="social color-orange color-fff-hvr bg-orange-hvr bg-gray text-center radius-50 fs-15 d-inline-block"><i class="fa fa-twitter"></i></a> 
+						  <a href="https://www.linkedin.com/company/daz-labs-official" class="social color-orange color-fff-hvr bg-orange-hvr bg-gray text-center radius-50 fs-15 d-inline-block"><i class="fa fa-linkedin"></i></a> 
+						  <a href="https://github.com/DAZ-Labs" class="social color-orange color-fff-hvr bg-orange-hvr bg-gray text-center radius-50 fs-15 d-inline-block"><i class="fa fa-github"></i></a>
+						  <a href="https://medium.com/@dzentraz" class="social color-orange color-fff-hvr bg-orange-hvr bg-gray text-center radius-50 fs-15 d-inline-block"><i class="fa fa-medium"></i></a>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>-->
+	  <!-- ==================================================
+							End footer-area
+      ================================================== -->
+	  <section class="contact-area sec-padding" id="contact">
+          <div class="container">
+			  <h1 class="title-h">Contact Us</h1>
+			  <p class="title-p">We would love to attend you. Reach us out on:</p>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <div class="address">		
+						  <p class="mb-30px"><i class="color-orange bg-orange-lh radius-50 fs-35 mr-10px text-center icon-map" style="color: black;"></i>Jaipur, India</p>
+					  </div>
+					  <div class="address">					
+						  <p class="mb-30px"><i class="color-orange bg-orange-lh radius-50 fs-35 mr-10px text-center icon-phone" style="color: black;"></i>+(91) 8327794527</p>
+					  </div>
+					  <div class="address">	
+						  <p class="mb-30px"><i class="color-orange bg-orange-lh radius-50 fs-35 mr-10px text-center icon-envelope" style="color: black;"></i>support@dazlabs.com</p>
+					  </div>
+				  </div>
+				  <div class="col-md-6">
+					  <div class="contact-form">
+						  <form class="form" id="contact-form" method="post" action="contact.php">
+							  <div class="messages"></div>
+							  <div class="controls">
+								  <div class="row"> 
+									  <div class="col-md-6">
+										  <div class="form-group">
+											  <input id="form_name" class="form-control" type="text" name="name" placeholder="Name"  required="required" data-error="Name is required.">
+											  <div class="help-block with-errors color-orange"></div>
+										  </div>
+									  </div>
+									  <div class="col-md-6">
+										  <div class="form-group">
+											  <input id="form_email" class="form-control" type="email" name="email" placeholder="Email" required="required" data-error="email is required.">
+										  <div class="help-block with-errors color-orange"></div>
+										  </div>
+									  </div>
+									  <div class="col-md-12">
+										  <div class="form-group">
+											  <input id="form_subject" class="form-control" type="text" name="subject" placeholder="Subject">
+											  <div class="help-block with-errors"></div>
+										  </div>
+									  </div>
+									  <div class="col-md-12">
+										  <div class="form-group">
+											  <textarea id="form_message" class="form-control" name="message" placeholder="Message" rows="6" required="required" data-error="Message."></textarea>
+											  <div class="help-block with-errors color-orange"></div>
+										  </div>
+									  </div>
+									  <div class="col-md-12">
+										  <input type="submit" value="Send Message" class="main-btn btn-3 color-fff radius-50px bg-orange color-orange-hvr" style="color: #fff;background-color: #ff7762;" id="send-msg">
+									  </div>
+								  </div>
+							  </div>
+						  </form>    
+					  </div>
+				  </div>
+			  </div>
+          </div>   
+      </section>
+	  <!-- ==================================================
+							copyright-area
+      ================================================== -->
+	  <section class="bg-orange-lh sm-padding text-center">
+		  <div class="container">
+			  <h6 class="mb-0px">© 2019 DAZ Labs</h6>
+		  </div>
+	  </section>
+	  <!-- ==================================================
+							End copyright-area
       ================================================== -->
 	  
 	  
@@ -377,40 +734,6 @@
 							End scroll-top-btn
       ================================================== -->
 	  
-	
-		<script>
-			var target_date = new Date(2019,2,13,0,0); // set the countdown date
-			var days, hours, minutes, seconds; // variables for time units
-	
-			var countdown = document.getElementById("tiles"); // get tag element
-	
-			getCountdown();
-	
-			setInterval(function () { getCountdown(); }, 1000);
-	
-			function getCountdown(){
-	
-				// find the amount of "seconds" between now and target
-				var current_date = new Date().getTime();
-				var seconds_left = (target_date - current_date) / 1000;
-	
-				days = pad( parseInt(seconds_left / 86400) );
-				seconds_left = seconds_left % 86400;
-					
-				hours = pad( parseInt(seconds_left / 3600) );
-				seconds_left = seconds_left % 3600;
-					
-				minutes = pad( parseInt(seconds_left / 60) );
-				seconds = pad( parseInt( seconds_left % 60 ) );
-	
-				// format countdown string + set tag value
-				countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
-			}
-	
-			function pad(n) {
-				return (n < 10 ? '0' : '') + n;
-			}
-		</script>  
 	  
 
     <!-- Optional JavaScript -->
@@ -429,6 +752,31 @@
 	<script src="js/isotope.pkgd.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/wow.min.js"></script>
-	    
+	<script type="text/javascript">
+/*	document.onkeydown = function(e) {
+		if(event.keyCode == 123) {
+		return false;
+		}
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+		return false;
+		}
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+		return false;
+		}
+		if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+		return false;
+		}
+	}
+	*/
+	/*$("how-work-3 .how-box .mt-25px span.p-relative").each(function( index ) {
+  		$(this).addClass("apply-col");
+  		console.log( index + ": " + $( this ).text() );
+	});*/
+	
+	$("#send-msg").click(function(){
+		alert("Thank You for your message, our team will surely get back to you within next 48 Hours.");
+	})
+	
+	</script>
   </body>
 </html>
