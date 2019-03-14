@@ -1,47 +1,3 @@
-/*****
-
-Feras - creative one page parallax
-
-author : Dragon-themes
- 
-****/
-
-//////******
-
-the content
-
-01-global Style
-02-load-wrapp
-03-intro-sec
-04-navbar
-05-welcome-area
-06-features-area
-07-about-area
-08-services-area
-09-how-work
-10-team-area
-11-faqs
-12-price-area 
-13-testimonials 
-14-contact-area 
-15-map
-16-brands-area 
-17-get-started
-18-footer-area
-19-scroll-top-btn
-20-process-area
-21-leadership-area
-22-video-area 
-23-why-area 
-24-work-area
-25-blog-area
-26-work-details
-27-log-in page
-28- single-blog page
-29-blog-list
-
-******//////
-
 /*----------------------------------------------------
 					01-global Style
 ----------------------------------------------------*/
@@ -56,6 +12,8 @@ the content
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	max-width: 100%;
+    	overflow-x: hidden;
 }
 
 .fa {
